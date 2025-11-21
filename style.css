@@ -1,0 +1,51 @@
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.title-text {
+    padding: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-text h1 {
+    font-weight: 800;
+    animation: pulse 2s infinite ease-in-out;
+}
+
+#temperature-display {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#wind-speed-display {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+#timezone-display {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#time-display {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.title-text h1:hover {
+    background-color: black;
+    color: white;
+}
